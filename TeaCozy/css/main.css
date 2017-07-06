@@ -1,0 +1,141 @@
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    color: seashell;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Our Mission Section */
+
+#mission {
+    background-image: url("img/img-myrtle-ave.jpg");
+    height: 500px;
+    padding-top: 60px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/* Shop/Services Section */
+
+#featured-tea {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.tea {
+    padding: 5px;
+}
+
+.tea img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.tea span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Locations */
+
+.container.locations {
+    padding-top: 5px;
+}
+
+.location {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    flex-basis: 280px;
+}
+
+#locations {
+    background-image: url("img/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+
+#locations .container {
+    margin: auto;
+    width: 1100px;
+}
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    margin: auto;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
